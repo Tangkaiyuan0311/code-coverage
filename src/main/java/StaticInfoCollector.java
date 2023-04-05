@@ -2,8 +2,8 @@ import org.objectweb.asm.*;
 
 
 /**
- * adapter between classReader and classWriter.
- * implement the core algorithm for first pass
+ * Adapter between classReader and classWriter.<br>
+ * Implement the core algorithm for first pass.
  * @author kt27
  */
 public class StaticInfoCollector extends ClassVisitor implements Opcodes {

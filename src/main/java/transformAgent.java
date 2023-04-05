@@ -1,8 +1,8 @@
 import java.lang.instrument.Instrumentation;
 
 /**
- * java agent startup
- * execute the main driver
+ * Java agent startup<br>
+ * Register and invoke the main driver
  * @author kt27
  */
 public class transformAgent {

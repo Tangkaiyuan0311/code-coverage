@@ -1,8 +1,8 @@
 
 /**
- * The overall two-part coverage information for a single class
- * First part: static line number association for each class: method.
- * Second part: line number coverage for each class: method
+ * The overall two-part coverage information for a single class.<br>
+ * First part: static line number association for each class: method.<br>
+ * Second part: line number coverage for each class: method.<br>
  * @author kt27
  */
 public class coverageInfo {

@@ -1,7 +1,8 @@
 import org.objectweb.asm.*;
 
 /**
- * Encapsulate the class writer
+ * Encapsulate the class writer.<br>
+ * Used during second pass.
  * @author kt27
  */
 public class CoverageRecorder extends ClassVisitor implements Opcodes {
