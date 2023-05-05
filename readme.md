@@ -2,7 +2,7 @@
 ### Solution overview
 + assumption: line coverage, one statement per line
 + first pass: parse the main class file with ASM event-based API, record the line numbers in source file with each method in a internal mapping structure.
-+ second pass: modify the class file, insert a information-collecting method invocation between each source code line.
++ second pass: modify the class file, insert a information-collecting method invocation for each source code line and each branch.
 use java agent to apply the transformation when loading into virtual machine.
 
 ### Set up (maven)
