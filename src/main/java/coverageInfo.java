@@ -8,6 +8,7 @@
 public class coverageInfo {
     public FirstPassResult lineContained; // line numbers of methods
     public SecondPassResult lineCovered; // covered line numbers of methods
+    public BranchTracker branchTracker;
 
     public coverageInfo(FirstPassResult lineContained, SecondPassResult lineCovered) {
         this.lineContained = lineContained;
