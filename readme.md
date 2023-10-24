@@ -5,6 +5,8 @@
 + second pass: modify the class file, insert a information-collecting method invocation for each source code line and each branch.
 use java agent to apply the transformation when loading into virtual machine.
 
+![Example Image](./code-coverage.drawio.png)
+
 ### Set up (maven)
 1. Build the artifact: test-coverage-asm.jar
 2. Copy test-coverage-asm.jar to somewhere in your project directory
